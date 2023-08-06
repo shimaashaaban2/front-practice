@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <video src="./video/big_buck_bunny.mp4" width="300px" controls></video>
+    <input type="button"  value ="play" id="btn1" >
+    <input type="button"  value="pause" id="btn2">
+    <input type="button"  value="mute" id="btn3">
+    <input type="range" min="0" max="1" value="0" class="video-range"> 
+    <span class="current-time"></span>
+    :<span class="total-time"></span>:
+     <span class="total-time-seconds"></span>
+    <span class="total-time-min"></span>
+     <br><br>
+    <input type="button"  value="1.5" id ="btn4" >
+    <input type="button"  value="0.75" id ="btn5" >
+    <input type="button"  value="0.25" id ="btn6" >
+    <input type="button"  value="unmuted" id="btn7">
+    <br><br>
+    <input type="range"  min="0" max="1" step="0.1" id="v1" oninput="volumeVid(this.value)">
+    <span>volume</span>
+    <script src="Script.js"></script>
+</body>
+</html>

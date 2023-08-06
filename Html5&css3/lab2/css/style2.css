@@ -1,0 +1,55 @@
+#heart {
+    position: relative;
+    width: 100px;
+    height: 90px;
+    transform: rotate(180deg);
+  }
+  #heart:before,
+  #heart:after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: -25px;
+    width: 50px;
+    height: 80px;
+    background: black;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+  }
+  #heart:after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+  }
+
+
+#triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 60px solid black;
+    margin-left: 26px;
+  }
+#Ace{
+    width: 80px;
+    border: 3px solid red;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+#ace-left {
+    position: relative;;
+    font-size: 30px;
+    top: -5px;
+    left: -45px;
+  }
+  #ace-right {
+    position: absolute;
+    font-size: 30px;
+    top: 192px;
+    left: 161px;
+  }
+    

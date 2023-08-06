@@ -1,0 +1,65 @@
+input:invalid + div{
+  display: block;
+}
+input:valid + div{
+  display: none;
+}
+
+input:invalid{
+  outline: 3px solid red;
+}
+input:valid{
+  outline:3px solid aqua;
+}
+input  {
+  position: relative;
+}
+input[type=email]:invalid{
+ outline:3px solid red ;
+}
+input[type=email]:valid{
+ outline:3px solid aqua ;
+}
+
+input ::before {
+  position: absolute;
+  right: -20px;
+  top: 5px;
+}
+
+
+input:invalid {
+  border: 2px solid red;
+}
+
+input:invalid + span::before {
+  color: red;
+}
+
+input:valid + span::before {
+  color: green;
+}
+
+#btn2{
+  padding-left:20px ;
+  padding-right:20px ;
+  border-radius: 10px;
+  background-color: rgb(201, 162, 238);
+}
+#btn2:hover{
+    border-radius: 10px;
+    background-color: plum;
+    box-shadow: 15px 15px 15px 5px rgb(70, 58, 110);
+}
+img{
+  position: relative;
+}
+p{
+  position: absolute;
+  bottom: -100px;
+  left: 15px;
+}
+p{
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}

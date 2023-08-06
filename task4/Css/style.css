@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.header{
+    width: 100%;
+    height: 65px;
+    background-color: cadetblue;
+    padding-top: 5px;
+    
+    
+}
+.logo-text{
+    width: 150px;
+    height: 45px;
+    float: left;
+    color: #ffff;
+    font-weight: 500;
+    margin-left: 80px;  
+}
+.logo-img{
+    width: 50px;
+    height: 45px;
+}
+.ul1{
+    list-style: none;
+    float: right;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+ .ul1 li{
+    display: inline-block;
+    margin-left: 20px;
+    
+    
+}
+.ul1 li a{
+    text-decoration: none;
+    color: white;
+    margin-right: 70px;
+    
+} 
+.sign-btn{
+    background-color: rgb(20, 20, 131);
+    margin-right: 10px;
+    color: #ffff;
+    width: 95px;
+    height: 30px;
+    border-radius: 6px;
+    border: 0;
+    font-size: 17px;
+}
+
+.home img{
+    width: 100%;
+    height: 500px;
+    margin-top: -5px;
+}
+.home-img{
+    position: relative;
+}
+.home-text{
+    position: absolute;
+    padding:20px 30px ;
+    margin-top: -215px;
+}
+.home-text .big-text{
+    margin-top: -37px;
+    color: #ffff;
+    font-size: 45px;
+    font-weight: 300;
+}
+.small-text{
+    font-size: 25px;
+    color: #ffff;
+}
+.container1{
+    width: 82%;
+    height: 190px;
+    margin: auto;
+}
+
+.con-div1{
+    border: 2px solid cadetblue;
+    width: 270px;
+    height: 101px;
+    border-radius: 8px;
+    margin-left: 2px;
+    margin-top: 43px;
+    padding-top: 27px;
+    padding-bottom: 22px;
+    padding-left: 28px;
+    padding-right: 21px;
+}
+    
+
+.con-div2{
+    border: 2px solid cadetblue;
+    width: 270px;
+    height: 101px;
+    border-radius: 8px;
+    margin-left: 386px;
+    margin-top: -152px;
+    float: left;
+    padding-bottom: 27px;
+    padding-left: 28px;
+    padding-right: 35px;
+    padding-top: 21px;
+}
+
+
+.con-div3{
+    border: 2px solid cadetblue;
+    width: 270px;
+    height: 101px;
+    border-radius: 8px;
+    margin-left: 776px;
+    margin-top: -150px;
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 10px;
+    padding-bottom: 21px;
+    
+    
+}
+.con-div1,.con-div2,.con-div3{
+    text-align: center;
+}
+
+.container1 a{
+    text-decoration: none;
+    color: cadetblue;
+    font-weight: bold;
+}
+.form-title{
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.big-title{
+    font-size: 45px;
+}
+.small-title{
+    font-size: 25px;
+}
+.form{
+ border: 2px solid #ccc;
+ border-radius: 8px;
+ padding: 48px;
+ margin: 40px;
+ 
+}
+#Fname,#Lname {
+    border-radius: 5px;
+    width: 407px;
+    border: 1px solid #ccc;
+    margin-top:6px ;
+    margin-bottom: 16px;
+    padding: 12px;
+    display: block;
+}
+#Fname{width: 50%;}
+#Lname{width: 87%;}
+
+#Fname:hover{
+    border: 3px solid cadetblue;
+}
+#Lname:hover{
+    border: 3px solid cadetblue;
+}
+ #number,#email{
+    border-radius: 5px;
+    width: 95%;
+    border: 1px solid #ccc;
+    margin-top:6px ;
+    margin-bottom: 16px;
+    padding: 12px;
+    display: block;
+}
+#number:hover{
+    border: 3px solid cadetblue;
+}
+#email:hover{
+    border: 3px solid cadetblue;
+}
+textarea{
+    border: 1px solid #ccc;
+    margin-top:6px ;
+    margin-bottom: 16px;
+    display: block;
+    width: 95%;
+}
+.send-btn{
+    width: 150px;
+    height: 40px;
+    border: 0;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: cadetblue;
+    color: #ffff;
+}
+
+textarea:hover{
+    border: 3px solid cadetblue;
+    
+}
+.lname{
+    margin-top: -88px;
+    margin-left: 600px;
+}
